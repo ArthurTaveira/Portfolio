@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  transition: 0.4s;
+}
+body .home {
+  height: 100vh;
+}
+
+.fa-html5:hover {
+  color: #E44D25;
+}
+
+.fa-css3-alt:hover {
+  color: #2862E9;
+}
+
+.fa-js:hover {
+  color: #EFD81D;
+}
+
+.fa-bootstrap:hover {
+  color: #7810F1;
+}
+
+.fa-sass:hover {
+  color: #C76494;
+}
+
+.fa-react:hover {
+  color: #5ED3F3;
+}
+
+.projeto {
+  background: white;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+#sobremim {
+  height: 100vh;
+}
+
+#linkedinSobremim {
+  background-color: #999;
+  color: #3f3d56;
+}
+
+#linkedinSobremim:hover {
+  color: white;
+  background: #0A66C2;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.4s;
+}
+
+#instagramSobremim {
+  background-color: #999;
+  color: #3f3d56;
+}
+
+#instagramSobremim:hover {
+  color: white;
+  background: linear-gradient(120.15deg, #6D17F7, #F31CA0, #F7BF00);
+  box-shadow: 2px 2px 2px black;
+  transition: 0.4s;
+}
+
+#githubSobremim {
+  background-color: #999;
+  color: #3f3d56;
+}
+
+#githubSobremim:hover {
+  color: white;
+  background: #3f3d56;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.4s;
+}/*# sourceMappingURL=index.css.map */

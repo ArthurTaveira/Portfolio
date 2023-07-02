@@ -1,0 +1,86 @@
+@use 'mixins'
+    
+* 
+    margin: 0
+    padding: 0
+
+body
+    font-family: 'Open Sans'
+    transition: .4s
+
+    .home 
+        height: 100vh
+
+    
+
+.fa-html5:hover
+    color: #E44D25
+    // @include mixins.animacaoIcone
+    
+.fa-css3-alt:hover
+    color: #2862E9
+    // @include mixins.animacaoIcone
+
+.fa-js:hover
+    color: #EFD81D
+    // @include mixins.animacaoIcone
+
+.fa-bootstrap:hover
+    color: #7810F1
+    // @include mixins.animacaoIcone
+
+.fa-sass:hover
+    color: #C76494
+    // @include mixins.animacaoIcone
+
+.fa-react:hover
+    color: #5ED3F3
+    // @include mixins.animacaoIcone
+
+
+#imgProjetoUm
+    @include mixins.bg-img
+
+#imgProjetoUm:hover
+
+
+.projeto
+    background: white
+    border-radius: 20px
+    border: 1px solid black
+
+#sobremim 
+    height: 100vh
+
+#linkedinSobremim
+     @include mixins.corFundoPadrao 
+   
+
+#linkedinSobremim:hover
+    background: #0A66C2
+    @include mixins.CoreSombra
+    
+    
+    
+#instagramSobremim
+    @include mixins.corFundoPadrao 
+   
+
+#instagramSobremim:hover
+    background: linear-gradient(120.15deg, #6D17F7,#F31CA0, #F7BF00)
+    @include mixins.CoreSombra
+    
+
+#githubSobremim 
+     @include mixins.corFundoPadrao 
+    
+
+#githubSobremim:hover
+    background: #3f3d56
+    @include mixins.CoreSombra
+
+   
+
+
+    
+

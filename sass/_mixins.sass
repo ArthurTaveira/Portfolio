@@ -1,0 +1,26 @@
+
+@mixin animacaoIcone 
+    padding: 0.5rem
+    padding-top: 0
+    transition: .3s
+
+@mixin CoreSombra 
+    color: white
+    box-shadow: 2px 2px 2px black
+    transition: 0.4s
+
+@mixin corFundoPadrao 
+    background-color: #999
+
+@mixin bg-img()
+
+  background-size: 100%
+  background-position: center
+  background-repeat: no-repeat
+  filter: grayscale(100%)
+  transition: .6s
+
+  &:hover
+    background-size: 110%
+    filter: grayscale(0%)
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/#{$img}')
