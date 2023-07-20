@@ -1,10 +1,26 @@
 
+
+
 const htmlIcon = document.querySelector('#htmlIcon')
 const cssIcon = document.querySelector('#cssIcon')
 const jsIcon = document.querySelector('#jsIcon')
 const bootstrapIcon = document.querySelector('#bootstrapIcon')
 const sassIcon = document.querySelector('#sassIcon')
 const reactIcon = document.querySelector('#reactIcon')
+const btnVerMais = document.querySelector('.btn-verMaisExterno')
+
+const projeto3 = document.querySelector('.projeto3')
+const projeto4 = document.querySelector('.projeto4')
+const projeto5 = document.querySelector('.projeto5')
+
+
+
+btnVerMais.addEventListener('click', e => {
+    projeto3.classList.remove('d-none')
+    projeto4.classList.remove('d-none')
+    projeto5.classList.remove('d-none')
+    btnVerMais.classList.add('d-none')
+})
 
 
 

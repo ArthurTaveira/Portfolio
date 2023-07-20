@@ -35,6 +35,14 @@ body .home {
   color: #5ED3F3;
 }
 
+#imgProjetoUm {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
 .projeto {
   background: white;
   border-radius: 20px;
@@ -47,36 +55,43 @@ body .home {
 
 #linkedinSobremim {
   background-color: #999;
-  color: #3f3d56;
 }
 
 #linkedinSobremim:hover {
-  color: white;
   background: #0A66C2;
+  color: white;
   box-shadow: 2px 2px 2px black;
   transition: 0.4s;
 }
 
 #instagramSobremim {
   background-color: #999;
-  color: #3f3d56;
 }
 
 #instagramSobremim:hover {
-  color: white;
   background: linear-gradient(120.15deg, #6D17F7, #F31CA0, #F7BF00);
+  color: white;
   box-shadow: 2px 2px 2px black;
   transition: 0.4s;
 }
 
 #githubSobremim {
   background-color: #999;
-  color: #3f3d56;
 }
 
 #githubSobremim:hover {
-  color: white;
   background: #3f3d56;
+  color: white;
   box-shadow: 2px 2px 2px black;
   transition: 0.4s;
+}
+
+.btn-verMais {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-verMaisExterno {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
